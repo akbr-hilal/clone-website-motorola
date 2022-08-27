@@ -4,7 +4,6 @@ import { Carousel } from 'react-bootstrap';
 function CarouselItem ({ item }) {
   return (
     <>
-      <Carousel>
         <Carousel.Item interval={2000} key={item.id}>
           <div className="d-flex justify-content-center">
               <img
@@ -28,7 +27,6 @@ function CarouselItem ({ item }) {
             </div>
           </Carousel.Caption>
         </Carousel.Item>
-      </Carousel>
     </>
   )
 }
